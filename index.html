@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your title goes here</title>
-    <meta name="author" content="Your name goes here">
-    <meta name="description" content="Your site description goes here">
+    <title>Sudoku by Karl Damus</title>
+    <meta name="author" content="Karl Damus">
+    <meta name="description" content="The classic game of sudoku in JavaScript">
     <link rel="stylesheet" href="css/main.css">
+
+	<script src="js/constants.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
-    
+	<div class="app--wrapper">
+		<div id="menu--wrapper">
+			<div class="difficulty--wrapper">
+				<label for="difficulty">Difficulty:</label>
+				<select name="difficulty" id="difficulty">
+					<option value="easy">Easy</option>
+					<option value="medium">Medium</option>
+					<option value="hard">Hard</option>
+					<option value="expert">Expert</option>
+				</select>
+			</div>
+			<div class="newgame--wrapper">
+				<button id="newgame" value="New Game">New Game</button>
+			</div>
+		</div>
+		<div id="sudoku--wrapper">
+		</div>
+		<div id="input--wrapper">
+		</div>
+		<div id="inputOptions--wrapper">
+			<div id="edit--wrapper">
+				<img src="imported/img/pencil-24.png" alt="">
+				<span>Notes</span>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
