@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+createInnerBox	js/main.js	/^function createInnerBox(innerBoxId, outerBoxId) {$/;"	f
+createInputWrapper	js/main.js	/^function createInputWrapper(inputWrapper) {$/;"	f
+createNoteBox	js/main.js	/^function createNoteBox(noteBoxId, innerBoxId, outerBoxId) {$/;"	f
+createOuterBox	js/main.js	/^function createOuterBox(outerBoxId) {$/;"	f
+createSudokuArray	js/main.js	/^function createSudokuArray() {$/;"	f
+createSudokuGrid	js/main.js	/^function createSudokuGrid(sudokuWrapper) {$/;"	f
+createSudokuGridOld	js/main.js	/^function createSudokuGridOld(sudokuWrapper) {$/;"	f
+difficulty	js/main.js	/^var difficulty;$/;"	v
+empty	js/main.js	/^function empty(array) {$/;"	f
+generateSudokuGame	js/main.js	/^function generateSudokuGame() {$/;"	f
+getNumberOfStartingClues	js/constants.js	/^function getNumberOfStartingClues(difficulty) {$/;"	f
+note	js/main.js	/^var note = false;$/;"	v
+randomNumberBetween	js/constants.js	/^function randomNumberBetween(min, max) {$/;"	f
+resetHtmlContent	js/main.js	/^function resetHtmlContent() {$/;"	f
+selectedInput	js/main.js	/^var selectedInput = -1;$/;"	v
+setup	js/main.js	/^function setup() {$/;"	f
+setupButtons	js/main.js	/^function setupButtons() {$/;"	f
+setupInputOptions	js/main.js	/^function setupInputOptions(inputOptionsWrapper) {$/;"	f
+sudokuArray.id	js/main.js	/^				id: 0,$/;"	p
+sudokuArray.notes	js/main.js	/^				notes: new Array(9)$/;"	p
+sudokuArray.value	js/main.js	/^				value: null,$/;"	p
+sudokuBox_onClick	js/main.js	/^function sudokuBox_onClick(innerBoxId, outerBoxId) {$/;"	f
+switchDifficulty	js/constants.js	/^function switchDifficulty(difficulty) {$/;"	f
+updateSudokuArrayNoteValue	js/main.js	/^function updateSudokuArrayNoteValue(valueLocation) {$/;"	f
+updateSudokuArrayValue	js/main.js	/^function updateSudokuArrayValue(outerBoxIndex, innerBoxIndex) {$/;"	f
+updateSudokuValue	js/main.js	/^function updateSudokuValue(isNote, valueLocation) {$/;"	f
+window.onload	js/main.js	/^window.onload = function() {$/;"	f
