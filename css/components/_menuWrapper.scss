@@ -1,0 +1,12 @@
+#menu--wrapper {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+
+	label {
+		margin-right: 5px;
+	}
+}

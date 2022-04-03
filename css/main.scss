@@ -4,16 +4,13 @@
 @import 'base/variables';
 @import 'base/typography';
 
-@import 'components/forms/cta';
-@import 'components/forms/inputs';
-@import 'components/images/imageGalleryMaster';
-@import 'components/carousel';
+@import 'components/menuWrapper';
+@import 'components/inputWrapper';
+@import 'components/sudokuWrapper';
+@import 'components/inputOptionsWrapper';
+@import 'components/userInput';
 
 @import 'blocks/header';
 @import 'blocks/footer';
-@import 'blocks/contactForm';
 
 @import 'pages/home';
-@import 'pages/about';
-@import 'pages/portfolio';
-@import 'pages/contact';

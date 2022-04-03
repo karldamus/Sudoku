@@ -39,4 +39,148 @@ body {
     font-size: 24px;
   }
 }
+
+#menu--wrapper {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu--wrapper label {
+  margin-right: 5px;
+}
+
+#input--wrapper {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (0fr)[9];
+      grid-template-columns: repeat(9, 0fr);
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inputNumber--wrapper, #edit--wrapper {
+  background-color: #606060;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+#sudoku--wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (0fr)[3];
+      grid-template-columns: repeat(3, 0fr);
+}
+
+#sudoku--wrapper .outerBox, #sudoku--wrapper .innerBox {
+  border: 1px solid black;
+}
+
+#sudoku--wrapper .outerBox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (0fr)[3];
+      grid-template-columns: repeat(3, 0fr);
+}
+
+#sudoku--wrapper .innerBox {
+  position: relative;
+  width: 4vw;
+  height: 4vw;
+  font-size: 30px;
+  min-width: 65px;
+  min-height: 65px;
+}
+
+#sudoku--wrapper .noteBox {
+  color: #9c9c9c;
+  font-size: 16px;
+}
+
+#sudoku--wrapper .innerBox.hasNotes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (0fr)[3];
+      grid-template-columns: repeat(3, 0fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#sudoku--wrapper .innerBox.noNotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: blue;
+}
+
+#inputOptions--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#inputOptions--wrapper #edit--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  padding: 20px;
+}
+
+#inputOptions--wrapper img {
+  height: 40px;
+}
+
+.userInputtedNumber {
+  color: blue;
+}
+
+.selected {
+  background-color: black !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.app--wrapper {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
 /*# sourceMappingURL=main.css.map */

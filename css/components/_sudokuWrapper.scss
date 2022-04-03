@@ -1,0 +1,70 @@
+#sudoku--wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 0fr);
+
+	.outerBox, .innerBox {
+		border: 1px solid black;
+	}
+	
+	.outerBox {
+		display: grid;
+		grid-template-columns: repeat(3, 0fr);
+	}
+	
+	.innerBox {
+		position: relative;
+		width: 4vw;
+		height: 4vw;
+		// padding: 4px;
+		font-size: 30px;
+
+		min-width: 65px;
+		min-height: 65px;
+	}
+
+	.noteBox {
+		color: rgb(156, 156, 156);
+		font-size: 16px;
+	}
+
+	.innerBox.hasNotes {
+		display: grid;
+		grid-template-columns: repeat(3, 0fr);
+		align-items: center;
+		justify-content: space-around;
+
+		
+	}
+
+	.innerBox.noNotes {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: blue;
+	}
+}
+
+
+// .notes--wrapper {
+// 	position: absolute;
+// 	display: grid;
+// 	grid-template-columns: repeat(3, 0fr);
+// 	justify-content: space-between;
+// 	align-items: center;
+// 	// padding: 10px;
+
+// 	color: lightgray;
+// 	width: 100%;
+// }
+
+// .noteBox {
+
+// }
+
+// @media only screen and (max-width: 700px) {
+// 	.innerBox {
+// 		width: 50px !important;
+// 		height: 50px !important;
+// 		background-color: blue;
+// 	}
+// }

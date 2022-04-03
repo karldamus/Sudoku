@@ -1,0 +1,18 @@
+#inputOptions--wrapper {
+	display: flex;
+	// align-items: center;
+	justify-content: center;
+
+	#edit--wrapper {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		justify-items: center;
+	
+		padding: 20px;
+	}
+	
+	img {
+		height: 40px;
+	}
+}
