@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+createInnerBox	main.js	/^function createInnerBox(innerBoxId, outerBoxId) {$/;"	f
+createInputWrapper	main.js	/^function createInputWrapper(inputWrapper) {$/;"	f
+createNoteBox	main.js	/^function createNoteBox(noteBoxId, innerBoxId, outerBoxId) {$/;"	f
+createOuterBox	main.js	/^function createOuterBox(outerBoxId) {$/;"	f
+createSudokuArray	main.js	/^function createSudokuArray() {$/;"	f
+createSudokuGrid	main.js	/^function createSudokuGrid(sudokuWrapper) {$/;"	f
+createSudokuGridOld	main.js	/^function createSudokuGridOld(sudokuWrapper) {$/;"	f
+difficulty	main.js	/^var difficulty;$/;"	v
+empty	main.js	/^function empty(array) {$/;"	f
+generateSudokuGame	main.js	/^function generateSudokuGame() {$/;"	f
+getNumberOfStartingClues	constants.js	/^function getNumberOfStartingClues(difficulty) {$/;"	f
+note	main.js	/^var note = false;$/;"	v
+randomNumberBetween	constants.js	/^function randomNumberBetween(min, max) {$/;"	f
+resetHtmlContent	main.js	/^function resetHtmlContent() {$/;"	f
+selectedInput	main.js	/^var selectedInput = -1;$/;"	v
+setup	main.js	/^function setup() {$/;"	f
+setupButtons	main.js	/^function setupButtons() {$/;"	f
+setupInputOptions	main.js	/^function setupInputOptions(inputOptionsWrapper) {$/;"	f
+sudokuArray.id	main.js	/^				id: 0,$/;"	p
+sudokuArray.notes	main.js	/^				notes: new Array(9)$/;"	p
+sudokuArray.value	main.js	/^				value: null,$/;"	p
+sudokuBox_onClick	main.js	/^function sudokuBox_onClick(innerBoxId, outerBoxId) {$/;"	f
+switchDifficulty	constants.js	/^function switchDifficulty(difficulty) {$/;"	f
+updateSudokuArrayNoteValue	main.js	/^function updateSudokuArrayNoteValue(valueLocation) {$/;"	f
+updateSudokuArrayValue	main.js	/^function updateSudokuArrayValue(outerBoxIndex, innerBoxIndex) {$/;"	f
+updateSudokuValue	main.js	/^function updateSudokuValue(isNote, valueLocation) {$/;"	f
+window.onload	main.js	/^window.onload = function() {$/;"	f
